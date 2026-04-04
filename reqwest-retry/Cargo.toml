@@ -21,7 +21,7 @@ async-trait = "0.1.51"
 futures = "0.3.0"
 http = "1.0"
 reqwest = { version = "0.13.1", default-features = false }
-retry-policies = "0.5"
+retry-policies = { git = "https://github.com/Dicklessgreat/retry-policies.git", rev = "f09fbd54bb64123b81ca2f6e4de68df472e0f944", features = ["wasm"] }
 thiserror = "2.0"
 tracing = { version = "0.1.26", optional = true }
 web-time = "1.1.0"
